@@ -3,4 +3,10 @@ project(lab_1_c C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(lab_1_c main.c)
+add_executable(latency
+        latency-measuring.c
+)
+
+add_executable(IPC
+        IPC-measuring.c
+)
